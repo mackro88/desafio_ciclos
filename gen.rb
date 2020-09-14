@@ -3,4 +3,4 @@ def gen(usuario)
     letras.each_with_index {|i, index| print i if index < usuario }
 end
 
-gen(5)
+gen(10)
